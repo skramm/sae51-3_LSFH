@@ -22,7 +22,7 @@ ufw status verbose
 ufw allow 80
 ufw allow 443
 #ssh
-ufw allow 22 # la restreindre
+ufw allow from 10.0.2.2 to 10.0.2.15 port 22
 
 ### Application de la configuration (rechargement de ufw).
 ufw --force reload
