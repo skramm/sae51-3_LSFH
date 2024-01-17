@@ -1,2 +1,3 @@
 */.vagrant/*
 vagClient/script/.bash_history
+vagClient/script/.ssh/known_hosts
