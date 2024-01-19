@@ -61,7 +61,7 @@ ip addr del 192.168.1.10/24 dev enp0s8
 ip addr add ${IP}/${Mask} dev enp0s8
 
 # Modifie l'adresse MAC de l'interface enp0s8
-ip link set dev enp0s8 address ${MAC}
+#ip link set dev enp0s8 address ${MAC}
 
 # Active à nouveau l'interface enp0s8
 ip link set dev enp0s8 up
