@@ -8,7 +8,7 @@
 # Paramètres de test
 url="http://192.168.1.2/"  # URL du serveur à attaquer
 num_requests=20000	   # Nombre total de requêtes à envoyer
-concurrency=1000   	   # Nombre de connexions simultanées à maintenir
+concurrency=1000	   # Nombre de connexions simultanées à maintenir
 
 # Exécute le test de charge avec ab
 ab -n $num_requests -c $concurrency $url
