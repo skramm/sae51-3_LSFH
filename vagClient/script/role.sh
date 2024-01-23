@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Reconnctez-vous au réseau"
+
+sleep 3
+
 # Installation du rôle miroir
 apt-get install -y nginx nginx-extras
 systemctl enable nginx 

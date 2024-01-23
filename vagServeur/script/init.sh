@@ -28,5 +28,7 @@ ufw allow from 10.0.2.2 to 10.0.2.15 port 22
 ufw --force reload
 ufw status verbose
 
+#limiter le nombre de connexions http
+#ufw limit 80
 
 #réinitialisé ufw : sudo ufw reset --force

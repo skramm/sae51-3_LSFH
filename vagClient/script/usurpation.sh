@@ -5,6 +5,7 @@
 
 # Récupération des informations pour usurpation :
 echo "Déconnecter vous pour balayer en local seulement"
+sleep 3
 nmap -sSV -O -Pn -p 21,22,23,25,53,80,8080,443,110,139,143,161,162,3306,3389  192.168.1.1-255 # range a modifier pour être plus rapide, ou balayer plus large
 
 # Récupérer l'IP, le masque et l'adresse MAC en résultat de commande nmap.
