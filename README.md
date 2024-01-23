@@ -8,12 +8,12 @@ Ces instructions permettent de mettre en place la virtualisation imbriquée si e
 
 ## 2 mise en place
 
-Une fois les machines virtuelles fonctionnelles, nous avons activé ufw sur le serveur, par défaut toutes les connexions sont désactivées. il a donc fallu activer explicitement les connexions à autoriser.
+Une fois les machines virtuelles fonctionnelles, nous avons activé ufw sur le serveur, par défaut toutes les connexions sont désactivées. Il a donc fallu activer explicitement les connexions à autoriser.
 
-Nous avons aussi mis en place des attaques, certaines que le serveur peut directement contrer ainsi qu'une qui nécesseciterait une sandbox avec plus de materiel pour pouvoir l'annuler.
+Nous avons aussi mis en place des attaques, certaines que le serveur peut directement contrer ainsi qu'une qui nécessiterait une sandbox avec plus de materiel pour pouvoir l'annuler.
 
 ## 3 troubleshooting
 
-Vagrant met parfois très logntemps à démmarer les machines virtuelles et peut conidérablement ralentir nos tests.
+Vagrant met parfois très logntemps à démarrer les machines virtuelles et peut considérablement ralentir nos tests.
 
-En manque de théorie sur le sujet, nous avons eu du mal à produrie une insfrastructure (sandbox) avec beaucoup d'exemples.
+En manque de théorie sur le sujet, nous avons eu du mal à produire une insfrastructure (sandbox) avec beaucoup d'exemples.
